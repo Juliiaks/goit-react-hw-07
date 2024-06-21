@@ -1,0 +1,18 @@
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listItem {
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 50px;
+    background-color: #90EBEF;
+    border: 2px solid #139597;
+}

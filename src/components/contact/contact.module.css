@@ -1,0 +1,19 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+}
+
+.delete {
+    background: linear-gradient(to right, #B3F5F8, #15E7F1);
+    border: 3px solid #117779;
+    color: #117779;
+}
+
+.delete:hover {
+    background: #0A4D4E;
+    color: #B3F5F8;
+
+}
