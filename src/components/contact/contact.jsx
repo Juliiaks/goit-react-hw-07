@@ -2,7 +2,7 @@ import { HiUser } from "react-icons/hi";
 import { HiPhone } from "react-icons/hi2";
 import css from "./contact.module.css"
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/operations";
+import { deleteContact } from "../../redux/contactsOps";
 export default function Contact({ contact }) {
     const dispatch = useDispatch();
     const handleDelete = () => dispatch(deleteContact(contact.id))

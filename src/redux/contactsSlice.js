@@ -1,6 +1,6 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit"
 import { number } from "yup";
-import { addContact, deleteContact, fetchContacts } from "./operations";
+import { addContact, deleteContact, fetchContacts } from "./contactsOps";
 import { createSelector } from "@reduxjs/toolkit";
 
 
